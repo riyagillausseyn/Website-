@@ -1,0 +1,47 @@
+h1 {
+  color: violet;
+  text-align: center;
+  font-family: impact;
+  border-style: solid;
+  font-size: 60px
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-family: arial;
+}
+
+.table_one {
+  font-family: impact;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table, th {
+  border: solid;
+}
+
+.facebook {
+  width: 3%;
+  height: 6%;
+  position: absolute;
+  top: 5;
+  right: 0;
+  margin-right: 10px;
+}
+
+.twitter {
+  width: 5%;
+  height: 8%;
+  position: absolute;
+  top: 6;
+  right: 0;
+  margin-right: 50px;
+}
