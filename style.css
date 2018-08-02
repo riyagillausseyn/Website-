@@ -1,13 +1,24 @@
-h1 {
+
+.jumbotron h1 {
   color: violet;
   text-align: center;
-  font-family: impact;
-  border-style: solid;
-  font-size: 60px
+  font-family: edwardian script itc;
+  font-size: 120px;
+  margin-top: auto;
+  border: solid;
+  border-width: 13px;
+  border-color: black;
+}
+
+.jumbotron {
+  background: white;
+  height: auto;
+  margin-top: auto;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 h3 {
@@ -16,32 +27,105 @@ h3 {
   font-family: arial;
 }
 
-.table_one {
-  font-family: impact;
-  font-size: 30px;
+li {
+  display: inline;
+  font-family: palace script mt;
+  decoration: none;
+}
+
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu ul {
   width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-}
-
-table, th {
   border: solid;
+  border-width: 3px;
+  border-color: black;
+  background-color: violet;
+  border-collapse: collapse;
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 50px;
 }
 
-.facebook {
-  width: 3%;
-  height: 6%;
-  position: absolute;
-  top: 5;
-  right: 0;
-  margin-right: 10px;
+.footer {
+  background-color: black;
 }
 
-.twitter {
-  width: 5%;
-  height: 8%;
-  position: absolute;
-  top: 6;
-  right: 0;
-  margin-right: 50px;
+.footer h4 {
+  color: violet;
+}
+
+.footer p {
+  font-size: 10px;
+  color: white;
+}
+
+#products img {
+  border: solid;
+  border-width: 3px;
+}
+
+.mku-inf p {
+  font-size: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.social {
+  float: right;
+  margin-bottom: 7px;
+}
+
+#myCarousel h1 {
+  color: black;
+}
+
+#myCarousel p {
+  color: black;
+}
+
+#products p {
+  font-family: arial;
 }

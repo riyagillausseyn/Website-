@@ -1,39 +1,126 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="style.css">
 
   <head>
     <title>GlowBeauty.co.uk</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
     <div class="container">
+      <ul class="social">
+        <li><a href="http://wwww.facebook.com" class="fa fa-facebook"></a></li>
+        <li><a href="http://www.twitter.com" class="fa fa-twitter"></a></li>
+        <li><a href="http://wwww.youtube.com" class="fa fa-youtube"></a></li>
+        <li><a href="http://www.instagram.com" class="fa fa-instagram"></a></li>
+        <li><a href="http://www.snapchat.com" class="fa fa-snapchat-ghost"></a></li>
+      </ul>
       <div class="jumbotron">
+        <br />
+        <a href="index.html"> <h1>Glow Beauty</h1> </a>
+        <div class="menu">
+          <ul class="menu">
+            <li><strong><a href="looks.html">Looks</a></strong></li>
+            <li><strong>Face</strong></li>
+            <li><strong>Hair</strong></li>
+            <li><strong>Lips</strong></li>
+            <li><strong>Eyes</strong></li>
+            <li><strong>Tutorials</strong></li>
+            <li><strong>Products</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="videos" class="text-center">
+        <h3>RECENT VIDEOS</h3>
         <div class="row">
-          <div class="col-sm-8">
-        <a href="http://wwww.facebook.com"> <img src="facebook.png" alt="Facebook Link" class="facebook"> </a>
-        <a href="http://www.twitter.com"> <img src="twitter.png" alt="Twitter Link" class="twitter"> </a>
-</div>
-</div>
-    <br>
+          <div class="col-sm-4">
+            <iframe width="373" height="210" src="https://www.youtube.com/embed/w3p3dBhQYko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe width="373" height="210" src="https://www.youtube.com/embed/A1CT0CwnVYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="col-sm-4">
+            <iframe width="373" height="210" src="https://www.youtube.com/embed/3DS5IC0Sj1g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
 
-    <a href="index.html"> <h1>Glow Beauty</h1> </a>
-  </div>
-    <table class='table_one'>
-        <tr>
-          <th>Looks</th>
-          <th>Face</th>
-          <th>Hair</th>
-          <th>Lips</th>
-          <th>Eyes</th>
-          <th>Tutorials</th>
-          <th>Products</th>
-        </tr>
-    </table>
+        <br>
 
-    <h3>SubTitle <h3>
-    <p> First Paragraph</p>
-    </div>
+        <div id="products" class="text-center">
+          <h3>FAVOURITE PRODUCTS<h3>
+            <div class="row">
+              <div class="col-sm-3">
+                <h2><small>Dipbrow Pomade</small></h2>
+                <img class="img-responsive" src="images/eyebrow.jpg" width="150" height="200" align:"center">
+                <p><small><blockquote> "An award-winning waterproof, multitasking, and buildable matte pomade that stays put. Apply and blend a small amount of Anastasia Beverly Hills DIPBROW® Pomade with an angled brow brush to effortlessly outline, fill, and texturize brows.
+"</blockquote></small></p>
+              </div>
+                <div class="col-sm-3">
+                  <h2><small>Foundation by Benefit</small></h2>
+                  <img class="img-responsive" src="images/foundation.jpg" width="150" height="100">
+                  <p><small><blockquote> "Hello flawless oxygen wow! Our brightening liquid foundation builds from light to medium coverage for a natural complexion you can believe in. It's you...just more luminous & healthy looking." </blockquote></small></p>
+                </div>
+                <div class="col-sm-3">
+                  <h2><small>Morphe Eyeshadow</small></h2>
+                  <img class="img-responsive" src="images/shadow.jpg" width="150" height="100">
+                  <p><small><blockquote>"Off-the-chart colour meets creamy blendability in these 35 wearable shades that deliver endless head-turning looks. From fiery oranges and warm browns to super-shimmer and mega-matte finishes, you have everything you need to highlight, blend, and transition."</blockquote></small></p>
+                </div>
+                <div class="col-sm-3">
+                  <h2><small>Gemini Lipstick</small></h2>
+                  <img class="img-responsive" src="images/Lipstcik.jpg" width="150" height="100">
+                  <p><small><blockquote>"Our liquid lipstick goes on opaque, dries completely matte and stays on for hours! This product is 100% vegan & cruelty-free! (tips before use: exfoliate with lip scrub then apply to bare lips! Avoid food with oil… and no making out, kisses are ok!)"</blockquote></small></p>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3">
+                <p><small>£19 incl. p&p</small></p>
+                <button><a href="https://www.anastasiabeverlyhills.co.uk/dipbrow-pomade-waterproof-color-brow-sculpt/dipbrow-pomade.html">Buy Here</a></button>
+              </div>
+              <div class="col-sm-3">
+                <p><small>£30 incl. p&p</small></p>
+                <button><a href="https://www.benefitcosmetics.com/uk/en-gb/product/hello-flawless-oxygen-wow-liquid-foundation">Buy Here</a></button>
+              </div>
+              <div class="col-sm-3">
+                <p><small>£23 incl. p&p</small></p>
+                <button><a href="https://uk.morphe.com/products/35o2-second-nature-eyeshadow-palette">Buy Here</a></button>
+              </div>
+              <div class="col-sm-3">
+                <p><small>£18 incl. p&p</small></p>
+                <button><a href="https://jeffreestarcosmetics.com/products/gemini">Buy Here</a></button>
+              </div>
+            </div>
+          </div>
+
+          <br>
+      <div class="footer">
+        <div class="row">
+          <div class="col-sm-4">
+            <h4><small>How can we help</small></h4>
+            <p>Help</p>
+            <p>Customer Service</p>
+            <p>Students</p>
+          </div>
+          <div class="col-sm-4">
+            <h4><small>Information</small><h4>
+            <p>T&C's</p>
+            <p>About Cookies</p>
+            <p>Refer a Friend</p>
+            </div>
+            <div class="col-sm-4">
+              <h4><small>About Us</small></h4>
+              <p>About GlowBeauty</p>
+              <p>Careers</p>
+              <p>Social Responsabilities</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
   </body>
 
 </html>
