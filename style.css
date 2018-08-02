@@ -58,11 +58,13 @@ li {
 
 .footer h4 {
   color: violet;
+  text-align: center;
 }
 
 .footer p {
   font-size: 10px;
   color: white;
+  text-align: center;
 }
 
 #products img {
